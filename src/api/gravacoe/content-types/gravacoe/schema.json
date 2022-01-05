@@ -1,0 +1,329 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gravacoes",
+  "info": {
+    "singularName": "gravacoe",
+    "pluralName": "gravacoes",
+    "displayName": "Gravacoes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipo": {
+      "type": "string"
+    },
+    "cod_grav": {
+      "type": "string"
+    },
+    "quant_grav_1": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q1_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_2": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q2_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_3": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q3_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q3_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q3_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q3_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_4": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q4_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q4_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q4_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q4_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_5": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q5_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_10": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q10_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_25": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q25_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q25_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q25_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q25_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_50": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q50_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q50_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q50_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q50_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_100": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q100_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q100_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q100_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q100_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_250": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q250_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q250_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q250_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q250_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_500": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q500_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q500_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q500_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q500_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_1000": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q1000_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1000_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1000_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q1000_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_2500": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q2500_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2500_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2500_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q2500_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_5000": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q5000_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5000_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5000_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q5000_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "quant_grav_10000": {
+      "type": "integer",
+      "default": 1
+    },
+    "preco_grav_q10000_cor1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10000_cor2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10000_cor3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "preco_grav_q10000_cor4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "grav_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

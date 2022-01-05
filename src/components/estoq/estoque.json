@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_estoq_estoques",
+  "info": {
+    "displayName": "estoque",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "em_estoque": {
+      "type": "integer",
+      "default": 0
+    },
+    "cors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cor.cor"
+    }
+  }
+}

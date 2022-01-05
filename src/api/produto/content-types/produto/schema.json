@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produtos",
+  "info": {
+    "singularName": "produto",
+    "pluralName": "produtos",
+    "displayName": "produtos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "codigo": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "img_principal": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "codigo"
+    },
+    "peso_G": {
+      "type": "decimal"
+    },
+    "ncm": {
+      "type": "string"
+    },
+    "origems": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::origem.origem",
+      "inversedBy": "produtos"
+    },
+    "categorias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::categoria.categoria",
+      "mappedBy": "produtos"
+    },
+    "Preco_fornecedor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quant-f.preco-fornecedor"
+    },
+    "preco_venda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "quant-v.quant-venda"
+    },
+    "cors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::cor.cor",
+      "inversedBy": "produtos"
+    },
+    "estoque": {
+      "type": "component",
+      "repeatable": true,
+      "component": "estoq.estoque"
+    }
+  }
+}

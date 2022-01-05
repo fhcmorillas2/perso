@@ -1,0 +1,147 @@
+{
+  "collectionName": "components_quant_v_quant_vendas",
+  "info": {
+    "displayName": "quant_venda",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "qv1": {
+      "type": "integer",
+      "default": 1,
+      "required": false
+    },
+    "preco_v1": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv2": {
+      "type": "integer",
+      "default": 2
+    },
+    "preco_v2": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv3": {
+      "type": "integer",
+      "default": 3
+    },
+    "preco_v3": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv4": {
+      "type": "integer",
+      "default": 4
+    },
+    "preco_v4": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv5": {
+      "type": "integer",
+      "default": 5
+    },
+    "preco_v5": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv10": {
+      "type": "integer",
+      "default": 10
+    },
+    "preco_v10": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv25": {
+      "type": "integer",
+      "default": 25
+    },
+    "preco_v25": {
+      "type": "decimal",
+      "default": 25
+    },
+    "qv50": {
+      "type": "integer",
+      "default": 50
+    },
+    "preco_v50": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv100": {
+      "type": "integer",
+      "default": 100
+    },
+    "preco_v100": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv200": {
+      "type": "integer",
+      "default": 200
+    },
+    "preco_v200": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv300": {
+      "type": "integer",
+      "default": 300
+    },
+    "preco_v300": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv500": {
+      "type": "integer",
+      "default": 500
+    },
+    "preco_v500": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv1000": {
+      "type": "integer",
+      "default": 1000
+    },
+    "preco_v1000": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv2000": {
+      "type": "integer",
+      "default": 2000
+    },
+    "preco_v2000": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv3000": {
+      "type": "integer",
+      "default": 3000
+    },
+    "preco_v3000": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv5000": {
+      "type": "integer",
+      "default": 5000
+    },
+    "preco_v5000": {
+      "type": "decimal",
+      "default": 0
+    },
+    "qv10000": {
+      "type": "integer",
+      "default": 10000
+    },
+    "preco_v10000": {
+      "type": "decimal",
+      "default": 0
+    }
+  }
+}

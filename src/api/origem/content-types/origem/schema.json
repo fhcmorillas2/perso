@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "origems",
+  "info": {
+    "singularName": "origem",
+    "pluralName": "origems",
+    "displayName": "Origem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Estado": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Estado"
+    },
+    "valor": {
+      "type": "integer"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "origems"
+    }
+  }
+}

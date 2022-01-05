@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cors",
+  "info": {
+    "singularName": "cor",
+    "pluralName": "cors",
+    "displayName": "cor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cor_nome": {
+      "type": "string"
+    },
+    "cor_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cor_cod": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "cor_cod"
+    },
+    "cname": {
+      "type": "uid",
+      "targetField": "cor_nome"
+    },
+    "hexa_cor": {
+      "type": "string",
+      "default": "#"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "cors"
+    }
+  }
+}

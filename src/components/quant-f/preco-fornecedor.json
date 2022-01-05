@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_quant_f_preco_fornecedors",
+  "info": {
+    "displayName": "preco_fornecedor",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "qf1": {
+      "type": "integer"
+    },
+    "preco_f1": {
+      "type": "integer"
+    },
+    "qf2": {
+      "type": "integer"
+    },
+    "preco_f2": {
+      "type": "integer"
+    },
+    "qf3": {
+      "type": "integer"
+    },
+    "preco_f3": {
+      "type": "integer"
+    },
+    "qf4": {
+      "type": "integer"
+    },
+    "preco_f4": {
+      "type": "integer"
+    },
+    "qf5": {
+      "type": "integer"
+    },
+    "preco_f5": {
+      "type": "integer"
+    },
+    "qf6": {
+      "type": "integer"
+    },
+    "preco_f6": {
+      "type": "integer"
+    }
+  }
+}
